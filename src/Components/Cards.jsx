@@ -3,7 +3,7 @@ import React from "react";
 const Cards = ({ element, index }) => {
   return (
 
-  <div className="container">
+  <div className="container ">
     <div className="row m-3">
     <div key={element.id} className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
       

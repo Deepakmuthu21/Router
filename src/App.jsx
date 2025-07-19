@@ -103,7 +103,7 @@ const data = [{
 
   
   return (
-    <div>
+    
       <BrowserRouter>
 <>
 <Navbar/>
@@ -114,14 +114,14 @@ const data = [{
   <Route path='/datascience' element={<DataScience data={data}/>}/>
   <Route path='/cybersecurity' element={<CyberSecurity data={data}/>}/>
   <Route path='/courses' element={<Courses data={data}/>}/>
-  <Route path='/' element={<PageNotFound/>}/>
+  <Route path='*' element={<PageNotFound/>}/>
 
 </Routes>
 
 </BrowserRouter>
 
 
-    </div>
+    
   );
 };
 
